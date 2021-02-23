@@ -1,0 +1,44 @@
+{
+  "title": "App Name",
+  "serverError": "Server xatosi!",
+  "invalidPhoneNumber": "Noto'g'ri telefon raqami!",
+  "invalidVerificationCode": "Tasdiqlash kodi noto‘g‘ri!",
+  "codeExpired": "Kod muddati tugagan!",
+  "individualTaxpayerNumberAlreadyInUse": "TIN allaqachon ishlatilmoqda",
+
+  "signIn": "Ro'yxatdan o'tish",
+  "requiredField": "Majburiy maydon",
+  "language": "Til",
+  "name": "FISH",
+  "birthDate": "Tug'ilgan kun",
+  "insufficientAge": "Yoshi yetarli emas",
+  "invalidDateFormat": "Sana formati yaroqsiz",
+  "city": "Shahar",
+  "getCities": "{city, select, tashkent{Toshkent} other{Other}}",
+  "phone": "Telefon raqami",
+  "verificationCode": "Tasdiqlash kodi",
+  "nan": "{object} raqamli bo'lishi kerak",
+  "@nan": {
+    "placeholders": {
+      "object": {}
+    }
+  },
+  "shouldContainAmountNumbers": "{object} {count} raqamdan iborat bo'lishi kerak",
+  "@shouldContainAmountNumbers": {
+    "placeholders": {
+      "object": {},
+      "count": {}
+    }
+  },
+  "gender": "Jins",
+  "getGender": "{gender, select, male{Erkak} female{Ayol} other{Other}}",
+  "individualTaxpayerNumber": "Firmaning TIN",
+  "register": "Ro'yxatdan o'tish",
+  "information": "Ma`lumot",
+  "getHomePageButtonLabel": "{label, select, aboutCompany{Kompaniya haqida} aboutProducts{Mahsulotlar haqida} aboutNovelty{Yangiliklar haqida} aboutPrograms{Dasturlar haqida} aboutPrice{Distribyutor sotish narxi} supervisorPmiPhone{PMI Supervisor raqami} supervisorDdrPhone{DDR Supervisor raqami} hotlinePhone{Ishlab chiqarish telefoni} email{Elektron pochta} other{Other}}",
+  "contacts": "Kontaktlar",
+  "call": "Qo'ng'iroq qilish",
+  "sendSms": "Xabar yozish",
+  "sendSmsByTelegram": "Telegramdan xabar yozish",
+  "sendEmail": "Elektron pochtaga xabar yuborish"
+}

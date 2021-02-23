@@ -1,0 +1,44 @@
+{
+  "title": "App Name",
+  "serverError": "Ошибка сервера!",
+  "invalidPhoneNumber": "Неверный номер телефона!",
+  "invalidVerificationCode": "Неверный проверочный код!",
+  "codeExpired": "Срок действия кода истек!",
+  "individualTaxpayerNumberAlreadyInUse": "ИНН уже используется",
+
+  "signIn": "Регистрация",
+  "requiredField": "Обязательное поле",
+  "language": "Язык",
+  "name": "ФИО",
+  "birthDate": "Дата рождения",
+  "insufficientAge": "Недостаточный возраст",
+  "invalidDateFormat": "Неверный формат даты",
+  "city": "Город",
+  "getCities": "{city, select, tashkent{Ташкент} other{Other}}",
+  "phone": "Номер телефона",
+  "verificationCode": "Код подтверждения",
+  "nan": "{object} должен состоять из цифр",
+  "@nan": {
+    "placeholders": {
+      "object": {}
+    }
+  },
+  "shouldContainAmountNumbers": "{object} должен состоять из {count} цифр",
+  "@shouldContainAmountNumbers": {
+    "placeholders": {
+      "object": {},
+      "count": {}
+    }
+  },
+  "gender": "Пол",
+  "getGender": "{gender, select, male{Мужчина} female{Женщина} other{Other}}",
+  "individualTaxpayerNumber": "ИНН Фирмы",
+  "register": "ЗАРЕГИСТРИРОВАТЬСЯ",
+  "information": "Информация",
+  "getHomePageButtonLabel": "{label, select, aboutCompany{О компании} aboutProducts{О продукте} aboutNovelty{О новинках} aboutPrograms{О программах} aboutPrice{Об отпускной цене дистрибьютора} supervisorPmiPhone{Телефон Супервайзера PMI} supervisorDdrPhone{Телефон Супервайзера DDR} hotlinePhone{Телефон горячей линии производства} email{Эл. почта} other{Other}}",
+  "contacts": "Контакты",
+  "call": "Позвонить",
+  "sendSms": "Написать сообщение",
+  "sendSmsByTelegram": "Написать сообщение по Telegram",
+  "sendEmail": "Написать сообщение по Email"
+}
