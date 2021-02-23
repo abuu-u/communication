@@ -3,6 +3,7 @@ import 'package:communication/application/auth/auth_bloc.dart';
 import 'package:communication/application/bloc/locale_bloc.dart';
 import 'package:communication/generated/l10n.dart';
 import 'package:communication/injection.dart';
+import 'package:communication/presentation/core/theme.dart';
 import 'package:communication/presentation/routes/app_router.gr.dart';
 import 'package:communication/presentation/splash/splash_page.dart';
 import 'package:flutter/material.dart';
@@ -32,38 +33,7 @@ class AppWidget extends StatelessWidget {
             builder: ExtendedNavigator.builder(
               router: AppRouter(),
               builder: (context, extendedNav) => Theme(
-                data: ThemeData.light().copyWith(
-                  inputDecorationTheme: InputDecorationTheme(
-                    errorMaxLines: 2,
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(4),
-                    ),
-                    enabledBorder: const OutlineInputBorder(
-                      borderSide: BorderSide(
-                        color: Color(0xFFDADADA),
-                      ),
-                    ),
-                    labelStyle: const TextStyle(
-                      color: Color.fromRGBO(0, 0, 0, 0.6),
-                    ),
-                    contentPadding: const EdgeInsets.symmetric(
-                      vertical: 16,
-                      horizontal: 4,
-                    ),
-                  ),
-                  primaryColor: const Color(0xFF6200EE),
-                  textButtonTheme: TextButtonThemeData(
-                    style: TextButton.styleFrom(
-                      primary: Colors.white,
-                      backgroundColor: const Color(0xFF6200EE),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(4),
-                      ),
-                      padding: const EdgeInsets.all(19),
-                    ),
-                  ),
-                  appBarTheme: const AppBarTheme(centerTitle: true),
-                ),
+                data: theme,
                 child: extendedNav,
               ),
             ),
