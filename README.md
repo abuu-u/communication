@@ -1,5 +1,12 @@
 # communication
 
+fake numbers:
+Phone number	  Verification code	
+(44) 444-44-44	444444	
+(11) 111-11-11	111111	
+(22) 222-22-22	222222	
+(12) 345-67-89	123456
+
 A new Flutter project.
 
 ## Getting Started
